@@ -1,0 +1,45 @@
+.beautifier {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button[name=collapse-node].is-active .icon svg:last-child {
+  display: block
+}
+
+/* .header{
+
+} */
+
+.header-desc{
+  padding-top: 0px;
+  text-align: center;
+  color: #31e9f7fa;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  font-weight: 200;
+  height:10%;
+}
