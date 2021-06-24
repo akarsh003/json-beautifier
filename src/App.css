@@ -1,45 +1,32 @@
 .beautifier {
-  text-align: left;
+  text-align: center;
 }
 
 .App-header {
   background-color: #282c34;
-  height: 200px;
+  height: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; 
+  font-size: calc(13px + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  color: rgb(221, 214, 214);
+  text-align: center;
+  letter-spacing: 0.01em;
+  box-sizing: inherit;
+  padding:0;
+  margin:0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.button[name=collapse-node].is-active .icon svg:last-child {
-  display: block
-}
-
-/* .header{
-
-} */
 
 .header-desc{
-  padding-top: 0px;
   text-align: center;
-  color: #31e9f7fa;
+  display: table-cell;
+  color: #9bf8fffa;
   font-size: 22px;
   letter-spacing: 0.01em;
-  font-weight: 200;
+  font-weight: 500;
   height:10%;
+  margin:0;
 }
